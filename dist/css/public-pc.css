@@ -1,0 +1,141 @@
+@charset "utf-8";
+
+body{
+    margin:0;
+    padding:0;
+}
+article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary {
+    display: block;
+}
+a:hover,a:visited,a:active,a:focus{text-decoration: none; outline: 0;}
+a{background-color: transparent;text-decoration: none;}
+img{border:0;display:block;}
+
+ul,li,p{
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+
+h1,h2,h3,h4,h5,h6,figcaption,figure{
+    font-size: 100%;
+    font-weight: 400;
+    color:#333;
+    margin:0;
+    padding:0;
+}
+body {
+    font-family:"Microsoft Yahei","微软雅黑",Helvetica,Arial,STHeiti,"华文细黑",sans-serif;
+    color:#999;
+    font-weight: 100;
+    font-size:16px;
+    background: #f5f5f5;
+    min-width: 1200px;
+}
+input,select{border:0;outline:0;background: transparent;}
+i,b{font-style: normal;font-weight:400;}
+table{ border-collapse: collapse;}
+
+// custom
+
+
+/*字号*/
+.f12{font-size:12px;}
+.f14{font-size:14px;}
+.f18{font-size:18px;}
+.f16{font-size:16px;}
+.f20{font-size:20px;}
+.f24{font-size:24px;}
+.f32{font-size:32px;}
+.f36{font-size:36px;}
+.f40{font-size:40px;}
+.fw900{font-weight:900;}
+.fw400{font-weight:400;}
+.fw100{font-weight: 100;}
+
+/*边框*/
+.border-b{border-bottom:1px solid #ebebeb;}
+/*字体颜色*/
+.cfff{color:#fff;}
+.c999{color:#999;}
+.c333{color:#333;}
+.c666{color:#666;}
+.cb6{color:#b6b6b6;}
+.c000{color:#000;}
+.cmain{color:#f8b600;}
+.chover:hover{color:#f89800;}
+.bhover:hover{background: #f89800;}
+/*main-border-color*/
+.ceb{color:#ebebeb;}
+.cf5{color:#f5f5f5;}
+.cfa{color:#fafafa;}
+/*main_bgc*/
+
+.bg-main{background-color:#f8b600;}
+.bg-fff{background-color:#fff;}
+.bg-f5{background-color:#f5f5f5;}
+.bg-fa{background-color:#fafafa;}
+
+.tc{text-align:center}
+.tr{text-align:right}
+.tl{text-align:left}
+.vm{vertical-align:middle;}
+
+.rt{float:right}
+.lf{float:left}
+.mauto{margin:0 auto}
+.qmhide{display:none!important;
+}
+.qmshow{
+    display:block!important;
+}
+.show2{display:inline-block}
+/* margin-top*/
+.mt15{margin-top:15px;}
+.mt20{margin-top:20px;}
+.mt25{margin-top:25px;}
+.mt30{margin-top:30px;}
+.mt40{margin-top:40px;}
+.mt60{margin-top:60px;}
+/* margin-bottom*/
+.mb60{margin-bottom:60px;}
+.mb15{margin-bottom:15px;}
+.mb10{margin-bottom:10px;}
+.mb20{margin-bottom:20px;}
+.mb30{margin-bottom:30px;}
+.mb40{margin-bottom:40px;}
+/*margin-left*/
+.ml30{margin-left:30px;}
+
+.mr60{margin-right:60px;}
+/* padding-top*/
+.pt60{padding-top:60px;}
+.pt40{padding-top:40px;}
+/*padding-bottom*/
+.pb60{padding-bottom:60px;}
+.pb40{padding-bottom:40px;}
+
+.line25{line-height:25px;}
+.line20{line-height:20px;}
+.cborder{border-top:80px solid transparent; }
+
+
+
+// 字体图标
+@font-face {
+  font-family: 'qmfont';  /* project id 228188 */
+  src: url('//at.alicdn.com/t/font_991edjv0pyqr529.eot');
+  src: url('//at.alicdn.com/t/font_991edjv0pyqr529.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_991edjv0pyqr529.woff') format('woff'),
+  url('//at.alicdn.com/t/font_991edjv0pyqr529.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_991edjv0pyqr529.svg#iconfont') format('svg');
+}
+.qmfont {
+    font-family:"qmfont" !important;
+    font-size:16px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+
